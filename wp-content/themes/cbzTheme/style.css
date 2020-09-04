@@ -1,0 +1,113 @@
+/*
+Theme Name: CBZ Theme
+Author: Paul
+*/
+
+
+/*body{
+	background-color: #ebc799;
+}
+.navigation{
+	edit menu as per requirement
+}*/
+
+/*temp*/
+@media only screen and (max-width: 767px) {
+	.home__hero-section-1 {
+		background-image: url('vendor/wp-content/uploads/2019/04/BG-800x800.jpg');
+	}
+}
+#menu-header li a span{
+	font-size: 65px;
+}
+.bold{
+	font-weight: bold;
+}
+.line {
+	margin:0 0 1em;
+	position:relative;
+	overflow:hidden;
+	text-align:left;
+	text-transform: uppercase;
+}
+.line:before,.line:after {
+	content:" ";
+	position:absolute;
+	top:73%;
+	margin-left:-999em;
+	height:2px;
+	width:998em;
+	border-top:3px solid #fff;
+}
+.line:after {
+	left:auto;
+	width:999em;
+	margin:0 0 0 1em;
+}
+.btn-read{
+	border-radius: 0px;
+	padding: 10px 25px;
+	box-shadow: none;
+	color: #000 !important;
+	text-transform: capitalize;
+	font-size: 30px;
+	font-weight: 400;
+}
+.btn-send{
+	padding: 5px 30px;
+	background-color: #fff;
+	color: grey;
+}
+.text-green{
+	color: #A0C838;
+}
+.font-12{
+	font-size: 12px;
+}
+.font-22{
+	font-size: 22px;
+}
+.social-team span i{
+	font-size: 14px;
+	padding-left: 4px;
+}
+.md-form>label{
+	color: #fff;
+	font-weight: 400;
+}
+.footer-section{
+	background-image: radial-gradient(rgb(0 0 0 / 0.6), rgb(0 0 0 / 0.9)),url('vendor/img/footer.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/*flex image*/
+.img {
+	width: 100%;
+	height: auto;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+.column {
+	flex: 33%;
+	max-width: 33%;
+	padding: 0 4px;
+}
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+}
+@media (max-width: 800px) {
+	.column {
+		flex: 50%;
+		max-width: 50%;
+	}
+}
+@media (max-width: 600px) {
+	.column {
+		flex: 100%;
+		max-width: 100%;
+	}
+}
